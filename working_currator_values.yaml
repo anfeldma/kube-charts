@@ -6,7 +6,7 @@ image:
   tag: 5.4.0
 
 # Indices older than these will be deleted, in days
-indicesAge: 6
+indicesAge: 7
 
 # Mount path for the configmap
 mountPath: /etc/config
@@ -22,8 +22,8 @@ history:
 
 # ElasticSearch connection details
 elasticsearch:
-  host: from-local-release-elasticsearch
-  port: 9200
+  host: http://10.56.125.150:31439
+  port: 31439
 
 # Sane defaults for resources, tweak for your needs
 resources:
